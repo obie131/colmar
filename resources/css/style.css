@@ -5,7 +5,7 @@ html{
 }
 
 
-
+/*          Header       */
 
 
 header{
@@ -23,6 +23,7 @@ header .logo{
   -ms-align-items: center;
   align-items: center;
   height: 32px;
+  font-size: 1.5rem;
 }
 
 header nav ul{
@@ -34,4 +35,44 @@ header li{
 }
 header span:last-child{
   color: rgb(155, 155, 155);
+}
+/*              Main Tagline    */
+.main{
+  display: flex;
+  padding: 32px 0;
+  background-color: rgb(155, 155, 155);
+}
+.main .tagline{
+  padding-left: 3rem;
+  padding-top: 10rem;
+}
+.main img{
+  padding: 0 24px;
+}
+
+.main .tagline h1{
+  font-size: 5rem;
+  line-height: 1.0;
+}
+
+.main .tagline h2{
+  font-size: 3rem;
+  line-height: 1.2;
+
+}
+.main .tagline span h1{
+  padding-bottom: 3rem;
+}
+.main button{
+  margin-top: 5rem;
+  padding: .5rem 0;
+  width: 30rem;
+  font-size: 2rem;
+  border-color: rgb(74, 74, 74);
+  box-shadow: 10px 5px 5px black;
+}
+.main button:hover{
+  background-color: #FF530D;
+  transition: background-color 250ms ease-in 250ms;
+
 }
