@@ -14,7 +14,7 @@ header{
   justify-content: space-between;
   padding: 16px 24px;
   align-items: center;
-  border: 1px solid black;
+  
 
 
 }
@@ -50,6 +50,7 @@ header span:last-child{
 .main img{
   padding: 0 24px;
   width: 60%;
+  object-fit: contain;
 }
 
 .main .tagline h1{
@@ -68,7 +69,7 @@ header span:last-child{
 .main button{
   margin-top: 5rem;
   padding: .5rem 0;
-  width: 30rem;
+  width: 100%;
   font-size: 2rem;
   border-color: rgb(74, 74, 74);
   box-shadow: 10px 5px 5px black;
